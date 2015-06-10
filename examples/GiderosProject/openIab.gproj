@@ -1,0 +1,26 @@
+<project>
+ <properties fps="30" architecture="1" iosDevice="0" packageName="es.jdbc.squaredots" retinaDisplay="0" mouseToTouch="1" orientation="0" touchToMouse="1" encryptAssets="1" assetsOnly="1" scaleMode="3" logicalWidth="480" autorotation="0" logicalHeight="800" mouseTouchOrder="0" encryptCode="1">
+  <imageScales/>
+ </properties>
+ <folder name="classes">
+  <file source="classes/billing.lua"/>
+  <file source="classes/dataSaver.lua"/>
+  <file source="classes/button.lua"/>
+  <file source="classes/GiderosCodingEasy.lua"/>
+  <file source="classes/scenemanager.lua"/>
+  <file source="classes/gtween.lua"/>
+  <file source="classes/easing.lua"/>
+ </folder>
+ <folder name="scenes">
+  <file source="shop.lua"/>
+ </folder>
+ <folder name="fonts">
+  <file source="fonts/DroidSansFallback.ttf"/>
+  <file source="fonts/new_academy.ttf"/>
+  <file source="fonts/futur1.ttf"/>
+ </folder>
+ <folder name="gfx">
+  <file source="gfx/shopping_cart_green.png"/>
+ </folder>
+ <file source="main.lua"/>
+</project>

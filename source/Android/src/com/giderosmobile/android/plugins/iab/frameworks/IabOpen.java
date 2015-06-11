@@ -79,7 +79,7 @@ public class IabOpen implements IabInterface,
 
 	@Override
 	public void onActivityResult(int requestCode, int resultCode, Intent data) {
-		Log.d("IabOpen", "onActivityResult");
+		mHelper.handleActivityResult(requestCode, resultCode, data);
 	}
 
 	@Override
